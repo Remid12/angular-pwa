@@ -1,0 +1,55 @@
+.h {
+  position: relative;
+  width: 100%;
+
+  .inner {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    margin-right: 120px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__nav {
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: normal;
+      font-size: 16px;
+
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+.main {
+  position: relative;
+  text-align: center;
+}
+
+::ng-deep .mat-simple-snackbar {
+  display: block;
+}
+
+::ng-deep .mat-snack-bar-container {
+  background-color: #d4edda;
+  color: #155724;
+  min-width: 100px !important;
+}
+
+::ng-deep .mat-snack-bar-container.is-offline {
+  background-color: #f8d7da;
+  color: #721c24;
+}
