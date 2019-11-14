@@ -11,6 +11,7 @@
           "/index.html",
           "/*.html",
           "/manifest.webmanifest",
+          "/assets/offline-dank.gif",
           "/*.css",
           "/*.js"
         ]

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1573744017052,
+  "timestamp": 1573745118047,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -8,10 +8,11 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/offline-dank.gif",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.cc4d648e8531251c2d7a.js",
-        "/main-es5.cc4d648e8531251c2d7a.js",
+        "/main-es2015.11d60a9119c1d992d8c5.js",
+        "/main-es5.11d60a9119c1d992d8c5.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -33,8 +34,7 @@
         "/assets/icons/icon-384x384.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png",
-        "/assets/offline-dank.gif"
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -51,9 +51,9 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/offline-dank.gif": "1f09f9f95b8d865469a56880f6776902a7850785",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "7af81ec7327532cc9e4aad0af28f2f7f6a869bb0",
-    "/main-es2015.cc4d648e8531251c2d7a.js": "c33e5af182b7fc031bf7e9d881c9767122febb28",
-    "/main-es5.cc4d648e8531251c2d7a.js": "6573c0bdddce8897f5766ca59e31519bc5ad55dd",
+    "/index.html": "310c64391d3dc4b9c798b9e1738a2f7674c4a2f9",
+    "/main-es2015.11d60a9119c1d992d8c5.js": "85d558bbf4ccb9e28cc80a191b52724964703321",
+    "/main-es5.11d60a9119c1d992d8c5.js": "88ffa09dea898c0446c4710ad29b391a671f93c6",
     "/manifest.webmanifest": "2f94ee8bac3f8f5a5eb04b14b45be7b37692fdf2",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "45c51483238468881240579c3fdecd19144cff17",
