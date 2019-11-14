@@ -7,8 +7,11 @@ const app = express();
 // Serve only the static files form the dist directory
 app.use(express.static('./dist/angular-pwa'));
 
-app.get('/*', function (req, res) {
+app.get("/ngsw-worker.js", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "public", "ngsw-worker.js"));
+});
 
+app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, '/dist/angular-pwa/index.html'));
 });
 
