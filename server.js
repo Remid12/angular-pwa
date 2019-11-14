@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static('./dist/angular-pwa'));
 
 app.get("/ngsw-worker.js", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "public", "ngsw-worker.js"));
+  res.sendFile(path.resolve(__dirname, "/dist/angular-pwa/ngsw-worker.js"));
 });
 
 app.get('/*', function (req, res) {
