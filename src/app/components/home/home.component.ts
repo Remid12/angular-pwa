@@ -14,14 +14,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     Notification.requestPermission(result => {
-      if (result === 'granted') {
+      if (result === 'granted' && 'Notification' in window) {
         this.pushAutorize = true;
       } else {
         this.pushAutorize = false;
-      }
-
-      if ('Notification' in window) {
-        this.pushNotification();
       }
 
     });
