@@ -1,3 +1,16 @@
 <h1>Homepage</h1>
 
-<button (click)="pushNotification()">Send me a notification!</button>
+
+<form (submit)='checkFormPush()' [formGroup]="formPush">
+  <mat-form-field>
+    <input matInput placeholder="Your message" required formControlName="message">
+
+    <mat-error *ngIf="formPush.controls['message'].hasError('required')">
+      You need a message to push
+    </mat-error>
+  </mat-form-field>
+
+  <div>
+    <button mat-raised-button type="submit" mat-flat-button color="primary">Send me a notification!</button>
+  </div>
+</form>
